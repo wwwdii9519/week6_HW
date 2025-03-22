@@ -1,0 +1,13 @@
+.animalsPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.animalsPage img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid darkgreen;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.mainPage {
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #6A7962;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+        url('https://www.meisterdrucke.cn/kunstwerke/1260px/Gustave_Courbet_-_The_Happy_Lovers_1844_-_%28MeisterDrucke-74787%29.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.sectionTable {
+    border-collapse: collapse;
+    background-color: transparent; 
+}
+
+.sectionTable td {
+    border: 2px solid darkgreen;
+    text-align: center;
+    padding: 16px;
+}
+
+
+.tableContainer {
+    display: grid;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+.sectionTable a {
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgreen; 
+  
+}
+
+.sectionTable a:hover {
+    color: lightgreen;
+}
